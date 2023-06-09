@@ -20,6 +20,7 @@ public class Function1 {
 
         int resultSum=calculator((a,b)->a+b,5,10);
         int resultSubtraction=calculator((a,b)->a-b,15,3);
+        var resultString=calculator((a,b)->a.toUpperCase()+" " + b.toUpperCase(),"mary","jhon");
 
 
 
